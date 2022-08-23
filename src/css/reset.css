@@ -51,7 +51,8 @@ table {
 }
 
 :root{
-	--whiteLight: #E0E0E0;	
 	--blue: #5163D3;
+	--grayLight: #E0E0E0;	
 	--black: #1B1C1E;
+	--colorbox:#EEEEEE;
 }
