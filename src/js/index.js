@@ -24,7 +24,7 @@ export  class creatCards {
         const tagh3     = document.createElement("h3");
         const tagP      = document.createElement("p");
         const tagSpan   = document.createElement("span");
-        const tagEm    = document.createElement("em");
+        const tagEm     = document.createElement("em");
 
         //atribuindo class Css
         tagFigure.classList.add("noticias_ul__liFigure");
