@@ -1,5 +1,4 @@
 
-
 export class ApiRequest {
     static baseUrl = "https://kenzie-news-api.herokuapp.com/api/news"
     static token   = "numeração do Token "
@@ -21,5 +20,3 @@ export class ApiRequest {
 
 
 }
-
-// ApiRequest.getNews()

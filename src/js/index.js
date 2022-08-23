@@ -6,7 +6,6 @@ export  class creatCards {
         const ul = document.querySelector(".main__noticias__ul")
        
         postNew.forEach(element => {
-            // console.log(element)
            const criet = this.criarCards(element)
            ul.append(criet)
         });
@@ -47,28 +46,3 @@ export  class creatCards {
         return tagLi
     }
 }
-
-/*
-<li>
-                    <figure class="noticias_ul__liFigure">
-                        <img src="src/img/image.png" alt="">
-                    </figure>
-
-                    <div class="noticias__box_content">
-                        <span>Nóticias</span>
-
-                        <h3>
-                            Silmara Souza é a nova CMO da Kenzie Academy Brasil
-                        </h3>
-
-                        <p>
-                            A executiva acumula 15 anos de experiência em branding e comunicação digital
-                        </p>
-
-                        <em>Font: Metrópoles</em>
-                    </div>
-                </li>
-
-
-
-*/ 
